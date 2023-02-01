@@ -129,6 +129,7 @@ footer {
     margin-bottom: 10px;
 }
 
+/* Media rules for responsive behaviour */
 @media (max-width: 1050px) {
     body {
         padding-top: 160px;
@@ -146,6 +147,7 @@ footer {
         height: 120px;
     }
 
+    /* Ensure navbar is taken into account when jumping to point on page */
     .nav-target:after {
         height: 160px;
         margin-top: -160px;
@@ -184,6 +186,7 @@ footer {
         height: 75px;
     }
 
+    /* Ensure navbar is taken into account when jumping to point on page */
     .nav-target:after {
         height: 115px;
         margin-top: -115px;
@@ -228,7 +231,7 @@ footer {
     #nav-container {
         padding: 20px 20px;
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 3fr; /* Collapse navbar on narrower screens */
         grid-template-areas:
             "logo name"
             "logo nav";
