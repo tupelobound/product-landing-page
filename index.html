@@ -8,7 +8,9 @@
 </head>
 
 <body>
+    <!-- Page header element -->
     <header id="header">
+        <!-- Div to hold navbar and brand logo -->
         <div class="container" id="nav-container">
             <img id="header-img" src="images/guitar.png">
             <h1>P&T Guitars</h1>
@@ -19,9 +21,10 @@
             </nav>
         </div>
     </header>
+    <!-- Container for main page content -->
     <main class="container">
-        <img id="main-img"
-            src="images/semi-hollow-guitar.jpeg">
+        <img id="main-img" src="images/semi-hollow-guitar.jpeg">
+        <!-- Target for navigation jump-to point -->
         <div id="about-target" class="nav-target"></div>
         <p>P&T Guitars is a cozy, family-run guitar and musical instrument shop in Hampshire. We've been in the business
             for over twenty years and have a wealth of experience in selling and servicing guitars, amplifiers and other
@@ -29,10 +32,12 @@
             instrument is. Our staff are happy to chat, make recommendations, and help you try the instruments and
             equipment. So next time you're in the area please feel free to pop in, say hello and hopefully find your
             dream six-stringed friend!</p>
+        <!-- Target for navigation jump-to point -->
         <div id="stock-target" class="nav-target"></div>
         <h2>Brands we stock</h2>
         <p>We stock all the major guitar brands, as well as a selection of smaller, UK-based brands. Here is a
             selection:</p>
+        <!-- Div to hold stocked brands logos -->
         <div id="brand-div">
             <img class="brandlogo" src="images/gibson-usa.svg">
             <img class="brandlogo" src="images/fender-guitars-logo.svg">
@@ -45,12 +50,15 @@
             <img class="brandlogo" src="images/d-addario-1.svg">
         </div>
         <p>We love the new Gibson range of guitars. Here's a video about the Les Paul Standard 50's model:</p>
+        <!-- Embedded Youtube video -->
         <iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/aDuedEe2vPM"
             frameborder="0"></iframe>
+        <!-- Target for navigation jump-to point -->
         <div id="contact-target" class="nav-target"></div>
         <h2>Get in touch!</h2>
         <p>We'd love to hear from you! Please use this form to send us a message if you'd like to know more about us or
             just to say hello.</p>
+        <!-- Contact form -->
         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <label for="name">Your Name</label><input id="name" type="text" placeholder=" Your name" name="name"
                 required>
@@ -64,6 +72,7 @@
         <footer>Copyright 2019, P&T Guitars</footer>
     </main>
 </body>
+<!-- Load scripts for freeCodeCamp project tests -->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <script src="js/script.js"></script>
 
