@@ -1,3 +1,4 @@
 // coded by @atjonathan
-const projectName = 'product-landing-page';
-localStorage.setItem('example_project', 'Product Landing Page');
+// eslint-disable-next-line no-unused-vars
+const projectName = 'product-landing-page'
+localStorage.setItem('example_project', 'Product Landing Page')
