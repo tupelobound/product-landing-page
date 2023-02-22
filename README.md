@@ -6,3 +6,4 @@ Fictional guitar shop landing page forming part of the Responsive Web Design Cer
 Brand names and video are lovingly used.
 
 Originally completed in August 2019
+
