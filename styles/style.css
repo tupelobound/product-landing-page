@@ -98,11 +98,6 @@ main {
   grid-gap: 20px;
 }
 
-#submit {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
 label {
   font-size: 1.5em;
   justify-self: end;
@@ -118,6 +113,8 @@ textarea {
 #submit {
   width: 200px;
   height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 3;
   justify-self: center;
   font-size: 1.5em;
   font-family: "Stylish", sans-serif;
